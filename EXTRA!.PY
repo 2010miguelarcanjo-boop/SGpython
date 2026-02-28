@@ -7,5 +7,5 @@ elif idade>=18 and gosto=='sim':
      print ('oloko')
 elif idade<18 or gosto=='nao':
      print ('tu teve um ps2 e n soube aproveitar viu')
-elif (idade>18 and pizza=='nao') or gosto=='nao'
-print ('sai pra la mano')
+elif (idade>18 and pizza=='nao') or gosto=='nao':
+    print ('sai pra la mano')
