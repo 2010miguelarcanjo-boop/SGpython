@@ -2,7 +2,7 @@ gosto= input('gosta de mgs?' )
 pizza= input('gosta de pizza?' )
 idade= input('sua idade?' )
 if gosto=='sim':
-     print ('kept you waiting hu?')
+     print ('kept you waiting huh?')
 elif idade>=18 and gosto=='sim':
      print ('oloko')
 elif idade<18 or gosto=='nao':
