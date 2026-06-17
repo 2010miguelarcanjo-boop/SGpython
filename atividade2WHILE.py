@@ -6,10 +6,10 @@ chances=int(input('digite suas chances: '))
 while pergunta != nsecret and chances>0:
     pergunta=int(input('digite seu numero aqui: '))
     if pergunta>nsecret:
-        print ('seu numero e maior que o certo')
+        print ('escolha um numero menor')
         chances-=1
     elif pergunta<nsecret:
-        print ('seu numero e menor que o certo')
+        print ('escolha um numero maior')
         chances-=1
     else:
         print ('voce acertou')
